@@ -15,7 +15,7 @@ You need Node.js at least version 4.
 ## Install the workshop by doing
 
 
-`$ npm install -g javascripting`
+`$ npm install --global javascripting`
 
 And start the workshop by typing, in the terminal:
 
