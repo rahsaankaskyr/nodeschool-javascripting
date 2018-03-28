@@ -1,36 +1,82 @@
 
 
-
- A string is a sequence of characters. A  
-  character is, roughly speaking, a written  
-  symbol. Examples of characters are letters,  
-  numbers, punctuation marks, and spaces.  
+## INTRODUCTION (Exercise 1 of 19)  
    
-  String values are surrounded by either  
-  single or double quotation marks.  
+  To keep things organized, let's create a folder for this workshop.  
+   
+  Run this command to make a directory called javascripting (or something  
+  else if you like):  
+   
+     mkdir javascripting  
+   
+  Change directory into the javascripting folder:  
+   
+     cd javascripting  
+   
+  Create a file named introduction.js:  
+   
+     touch introduction.js  
+   
+  Or if you're on Windows:  
+   
+     type NUL > introduction.js  
+   
+  (type is part of the command!)  
+   
+  Open the file in your favorite editor, and add this text:  
+   
+     console.log('hello');  
+   
+  Save the file, then check to see if your program is correct by running  
+  this command:  
+   
+     javascripting verify introduction.js  
+   
+  By the way, throughout this tutorial, you can give the file you work with  
+  any name you like, so if you want to use something like catsAreAwesome.js  
+  file for every exercise, you can do that. Just make sure to run:  
+   
+     javascripting verify catsAreAwesome.js 
+
+
+
+
+
+
+
+
+
+## STRINGS (Exercise 3 of 19)  
+   
+  A string is a sequence of characters. A character is, roughly speaking, a  
+  written symbol. Examples of characters are letters, numbers, punctuation  
+  marks, and spaces.  
+   
+  String values are surrounded by either single or double quotation marks.  
    
      'this is a string'  
        
-     "this is also a string" 
-
-
+     "this is also a string"  
+   
+ ## NOTE  
+   
+  Try to stay consistent. In this workshop we'll only use single quotation  
+  marks.  
+   
  ## The challenge:  
    
-  For this challenge, create a file named  
-  strings.js.  
+  For this challenge, create a file named strings.js.  
    
-  In that file create a variable named  
-  someString like this:  
+  In that file create a variable named someString like this:  
    
      var someString = 'this is a string';  
    
-  Use console.log to print the variable  
-  someString to the terminal.  
+  Use console.log to print the variable someString to the terminal.  
    
-  Check to see if your program is correct by  
-  running this command:  
+  Check to see if your program is correct by running this command:  
    
   javascripting verify strings.js  
+
 
 » To print these instructions again, run:                                             
      javascripting print                          
